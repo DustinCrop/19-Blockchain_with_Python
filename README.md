@@ -108,7 +108,7 @@ The following dependencies are required for this assignment and were likely alre
 
 - Create a dictionary object called `coins` that uses the `derive_wallets` function to derive `ETH` and `BTCTEST` wallets.
 
-- When done properly, the final object should look something like this (there are only 3 children each in this image):
+- When done properly, the final object should look something like this (there are only 3 children each in this image) Here's what mine looks like:
 
   ![wallet-object](https://github.com/DustinCrop/19-Blockchain_with_Python/blob/main/Screenshots/derive-wallets.png?raw=true)
 
