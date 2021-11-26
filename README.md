@@ -2,6 +2,10 @@
 
 ![newtons-coin-cradle](https://blog.coindirect.com/wp-content/uploads/2018/10/shutterstock_687394909-1024x375.jpg)
 
+## Description
+
+This project allows transactions on both Ethereum and Bitcoin test networks from a single wallet configured with HD Wallet derive, python, web.py and bit.
+
 ## Background
 
 Your new startup is focusing on building a portfolio management system that supports not only traditional assets
