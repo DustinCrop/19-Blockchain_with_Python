@@ -69,15 +69,7 @@ The following dependencies are required for this assignment and were likely alre
       ./derive --key=xprv9zbB6Xchu2zRkf6jSEnH9vuy7tpBuq2njDRr9efSGBXSYr1QtN8QHRur28QLQvKRqFThCxopdS1UD61a5q6jGyuJPGLDV9XfYHQto72DAE8 --cols=path,address --coin=ZEC --numderive=3 -g
       ```
   - The output should match what you see below:
-    - ```
-      +------+-------------------------------------+
-      | path | address                             |
-      +------+-------------------------------------+
-      | m/0  | t1V1Qp41kbHn159hvVXZL5M1MmVDRe6EdpA |
-      | m/1  | t1Tw6iqFY1g9dKeAqPDAncaUjha8cn9SZqX |
-      | m/2  | t1VGTPzBSSYd27GF8p9rGKGdFuWekKRhug4 |
-      +------+-------------------------------------+
-      ```
+   ![nicksbash](https://github.com/DustinCrop/19-Blockchain_with_Python/blob/main/Screenshots/derive-test.png?raw=true)
 
 - Create a file called `wallet.py` -- this will be your universal wallet script. You can use [this starter code](Starter-Code/wallet.py) as a starting point.
 
@@ -118,7 +110,7 @@ The following dependencies are required for this assignment and were likely alre
 
 - When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-  ![wallet-object](Images/wallet-object.png)
+  ![wallet-object](https://github.com/DustinCrop/19-Blockchain_with_Python/blob/main/Screenshots/derive-wallets.png?raw=true)
 
 - You should now be able to select child accounts (and thus, private keys) by accessing items in the `coins` dictionary like so: `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -191,9 +183,9 @@ The following dependencies are required for this assignment and were likely alre
 
     - Send a transaction to another testnet address (either one of your own, or the faucet's).
 
-    - Screenshot the confirmation of the transaction like so:
+    - Here is my screenshot:
 
-      ![btc-test](Images/btc-test.png)
+      ![btc-test](https://github.com/DustinCrop/19-Blockchain_with_Python/blob/main/Screenshots/BTCTEST_trxn.png?raw=true)
 
   - **Local PoA Ethereum transaction**
 
@@ -216,9 +208,9 @@ The following dependencies are required for this assignment and were likely alre
       or one of the `node` keystore files.
 
     - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
-      MyCrypto's TX Status, and screenshot the successful transaction like so:
+      MyCrypto's TX Status. Here is my screenshot for reference:
 
-      ![eth-test](Images/eth-test.png)
+      ![eth-test](https://github.com/DustinCrop/19-Blockchain_with_Python/blob/main/Screenshots/ETH_trxn.png?raw=true)
 ### 7. Challenge Mode - **OPTIONAL**
 
 - Add support for `BTC`.
